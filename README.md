@@ -23,8 +23,6 @@ eve | Event | Christmas
 nat | Natural Phenomenon | Hurricane
 O | No-Label | the
 
-![dataset](images/dataset.png)
-
 We will:
 - Preprocess text data for NLP
 - Build and train a Bi-directional LSTM-CRF model using Keras and Tensorflow
