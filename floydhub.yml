@@ -1,2 +1,5 @@
 env: tensorflow-1.7
 machine: cpu
+data:
+  - source: floydhub/datasets/ner/1
+    target: ner
