@@ -1,7 +1,7 @@
 # named-entity-recognition-template
 
 [Named Enity Recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) is one of the most common [NLP](https://en.wikipedia.org/wiki/Natural-language_processing) problems. The goal is classify named entities in text into pre-defined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc.
-*What can you use it for?* Here are a few ideas - social media, chatbot, customer support tickets, survey responses, and data mining! 
+*What can you use it for?* Here are a few ideas - social media, chatbot, customer support tickets, survey responses, and data mining!
 
 ### Predicting named entities of GMB(Groningen Meaning Bank) corpus
 
@@ -12,7 +12,7 @@ In this notebook we will perform a [Sequence Tagging with a LSTM-CRF model](http
 Entity tags are encoded using a BIO annotation scheme, where each entity label is prefixed with either B or I letter. B- denotes the beginning and I- inside of an entity. The prefixes are used to detect multiword entities, e.g. sentence:"World War II", tags:(B-eve, I-eve, I-eve). All other words, which don’t refer to entities of interest, are labeled with the O tag.
 
 Tag | Label meaning | Example Given
------------- | ------------- | 
+--- | ------------- | -------------
 geo | Geographical Entity | London
 org | Organization | ONU
 per | Person | Bush
