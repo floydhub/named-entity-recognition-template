@@ -1,4 +1,4 @@
-# named-entity-recognition-template
+# Named Entity Recognition
 
 [Named Enity Recognition](https://en.wikipedia.org/wiki/Named-entity_recognition) is one of the most common [NLP](https://en.wikipedia.org/wiki/Natural-language_processing) problems. The goal is classify named entities in text into pre-defined categories such as the names of persons, organizations, locations, expressions of times, quantities, monetary values, percentages, etc.
 *What can you use it for?* Here are a few ideas - social media, chatbot, customer support tickets, survey responses, and data mining!
